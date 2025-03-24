@@ -1,0 +1,243 @@
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; 
+    
+}
+
+h1 { 
+    font-size: 2rem;
+    color: rgb(247, 89, 89);
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px; 
+        
+    }
+    
+    .containerlacarusel {
+        position: relative;
+        width: 60%; 
+        height: auto;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.4);
+        font-size: 20px;
+        padding: 16px 64px;
+        border-radius: 140px;
+        overflow: hidden;
+      
+
+}
+
+
+.carusel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.carusel img {
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    object-fit: contain; 
+}
+
+
+.carusel {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    
+    overflow: hidden;
+    object-fit: scale-down; 
+}
+
+.carusel img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+button {
+    background-color: rgb(235, 138, 138);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(247, 89, 89);
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(247, 89, 89);
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center; 
+    width: 100%;
+}
+
+.customization-options {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+select, input[type="checkbox"] {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+   
+label[for="culoare"],
+label[for="miros"] ,
+label[for="cadouimpachetare"]{
+    
+    color: rgb(247, 89, 89);
+    font-size: 1.2rem; 
+    width: 150px;
+    display: inline-block; 
+    gap: 8px; 
+    white-space: nowrap
+}
+
+
+.culoare-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.culoarelum {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.culoarelum:hover {
+    transform: scale(1.2);
+}
+
+.culoare-options input[type="radio"] {
+    display: none;
+}
+
+.culoare-options input[type="radio"]:checked + label {
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#orderbuton {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(235, 138, 138);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#orderbuton:hover {
+    background-color: rgb(247, 89, 89);
+}
+
+.prettotal {
+    font-weight: bold;
+}
+
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FF8FAB;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgb(235, 138, 138);
+   border-radius: 5px;
+   border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    background-color: rgb(247, 89, 89);
+}
+
+select:focus {
+    box-shadow: 0 0 8px rgba(255, 140, 170, 0.6);
+}
+
+   
+
+
+hr {
+    border: none;      
+    height: 1px;        
+    background: rgb(247, 89, 89);
+    width: 100%;       
+    margin: 20px 20px;     
+}
